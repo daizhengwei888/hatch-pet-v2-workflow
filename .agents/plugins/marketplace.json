@@ -1,0 +1,20 @@
+{
+  "name": "hatch-pet-v2-workflow",
+  "interface": {
+    "displayName": "Hatch Pet V2 Workflow"
+  },
+  "plugins": [
+    {
+      "name": "hatch-pet-v2-workflow",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hatch-pet-v2-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer"
+    }
+  ]
+}

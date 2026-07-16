@@ -1,0 +1,38 @@
+{
+  "name": "hatch-pet-v2-workflow",
+  "version": "0.1.2",
+  "description": "Production workflow for creating, repairing, validating, and packaging Codex v2 animated pets.",
+  "author": {
+    "name": "daizhengwei888",
+    "url": "https://github.com/daizhengwei888"
+  },
+  "homepage": "https://github.com/daizhengwei888/hatch-pet-v2-workflow",
+  "repository": "https://github.com/daizhengwei888/hatch-pet-v2-workflow",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "desktop-pet",
+    "spritesheet",
+    "image-generation",
+    "visual-qa"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Hatch Pet V2 Workflow",
+    "shortDescription": "Production-grade Codex v2 pets with reactions and QA",
+    "longDescription": "Create, repair, validate, and package native Codex v2 animated pets with 16 look directions, click-reaction presets, resumable multi-outfit workflows, targeted row repair, visual QA, and cache-safe installation.",
+    "developerName": "daizhengwei888",
+    "category": "Developer",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/daizhengwei888/hatch-pet-v2-workflow",
+    "defaultPrompt": [
+      "Create two Codex v2 pet outfits from my reference photos with distinct click reactions.",
+      "Repair this Codex pet's hair edges, animation rows, directions, and package validation.",
+      "Resume this pet family run and regenerate only the failed rows."
+    ],
+    "brandColor": "#5B7CFA"
+  }
+}

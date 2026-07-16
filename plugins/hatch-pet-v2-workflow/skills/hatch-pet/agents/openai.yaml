@@ -1,0 +1,7 @@
+# Modified from OpenAI's Apache-2.0 hatch-pet skill; see repository NOTICE.
+interface:
+  display_name: "Hatch Pet V2 Workflow"
+  short_description: "Create v2 pets with reactions, QA, and repair"
+  default_prompt: "Use $hatch-pet to create a resumable Codex v2 pet with native pointer reactions, 16 look directions, visual QA, and cache-safe packaging."
+policy:
+  allow_implicit_invocation: true
